@@ -1,0 +1,2 @@
+PyGithub==1.45
+StackAPI==0.1.12

@@ -26,8 +26,9 @@ def search_with_language(language):
 user_list = []
 keywords = ['python', 'django', 'postgres']
 result = search_with_keywords(keywords)
+limit = 3
 
-for repo in result[:8]:
+for repo in result[:limit]:
     user_id = repo.owner.id
     username = repo.owner.login
     user_url = repo.owner.html_url
